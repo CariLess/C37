@@ -6,7 +6,8 @@ var game;
 var canvas;
 var gameState = 0;
 var playerCount;
-var allPlayers
+var allPlayers;
+var distance =0;
 
 function setup(){
  canvas = createCanvas(400,400);
